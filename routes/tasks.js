@@ -79,7 +79,7 @@ router.put("/task/:id", function(req, res, next) {
   }
 
   if (!updTask) {
-    res.status(400);update
+    res.status(400);
     res.json({
       error: "Bad Data"
     });
